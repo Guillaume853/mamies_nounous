@@ -9,6 +9,7 @@
   /*align-items: center;
   justify-content: space-between;*/
   background: transparent;
+  position: relative
 }
 
 /* Optional class to fix the navbar on top */
@@ -29,27 +30,31 @@
 }
 
 /* Navbar right section (with form, links, button) */
-.navbar-wagon-right {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.navbar-right {
+  position: absolute;
+  right: 0;
+  padding-top: 24px;
+  padding-right: 30px;
 }
 
 /* Navbar item */
-.navbar-wagon-item {
+.navbar-item {
   flex: 0 1 auto;
   cursor: pointer;
   padding: 0 20px;
 }
 
 /* Navbar standard link */
-.navbar-wagon-link {
-  color: #616668;
-  font-size: 14px;
+.navbar-link {
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 17px;
 }
-.navbar-wagon-link:hover {
-  color: #da552f;
+
+.navbar-link:hover {
+  color: #F1A852;
   text-decoration: none;
+  text-shadow: 1px 1px 2px black;
 }
 
 /* Navbar right button */
