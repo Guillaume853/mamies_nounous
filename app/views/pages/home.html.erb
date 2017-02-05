@@ -1,7 +1,50 @@
 <div class="banner">
   <h1><strong>Mamies-Nounous</strong></h1>
+
+  <%= link_to "Je m'inscris", new_user_registration_path, class:"btn btn-danger signup-button"%>
   <div class="bottom-title">
-    <h4><i>C'est Mamie qui me garde !</i></h4>
+    <h3><i>C'est Mamie qui me garde !</i></h3>
   </div>
+</div>
+
+<div id="services">
+  <div id="header">
+    <h4>
+      Nos services
+    </h4>
+    <div id="services-text">
+      <h5>
+        Besoin d'une nounou ? On s’occupe de tout !
+        Mamies-nounous, c'est un service de mise en relation entre parents à la recherche d'un mode de garde pour leurs enfants, et jeunes retraitées dynamiques souhaitant s'occuper de vos bout'choux !
+        Faire garder votre enfant par une mamie-nounou, c'est simple, rassurant, épanouissant
+      </h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <div class="card">
+        <%=image_tag 'maman.jpg', class: "image-home"%>
+        <div class="card-text">
+          <h6>
+            A la recherche d'une solution de garde pour vos enfants ?
+          </h6>
+          Sortie d'école ou de crèche, baby-sitting, garde ponctuelle ou à l'année ? Vous nous dites de quel service vous avez besoin et nous vous mettons en relation avec la mamie-nounou qui correspond le mieux à votre demande !
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <div class="card">
+        <%=image_tag 'mamie.jpg', class: "image-home"%>
+        <div class="card-text">
+          <h6>
+            Envie de devenir mamie-nounou ?
+          </h6>
+          Vous êtes une grand-mère dynamique ou une jeune retraitée et vous souhaitez offrir vos services de garde d'enfants à domicile ? Vous voulez devenir une "mamie- nounou" ? On s'occupe de tout !
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 

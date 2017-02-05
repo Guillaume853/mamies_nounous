@@ -17,11 +17,31 @@ h1{
   text-align: center;
 }
 
-h4{
+h3{
   font-family: 'Lora', serif;
   font-size: 32px;
   color: white;
 }
+
+h4{
+  font-family: 'Parisienne', cursive;
+  font-size: 32px;
+  color: white;
+}
+
+h5{
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+h6{
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  font-style: bold;
+  color: black;
+}
+
 
 .banner{
   background: image-url('background');
@@ -35,4 +55,46 @@ h4{
   text-align: center;
   position: relative;
 }
+
+.signup-button{
+  padding: 11px 30px !important;
+  font-size: 22px !important;
+  position: relative;
+  top: 140px;
+  font-family: 'arial', sans-serif;
+  box-shadow: 2px 2px rgba(37, 22, 5, 0.2);
+  border-radius: 10px !important;
+}
+
+#services{
+  background-color: #F1A852;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#services-text{
+  padding: 20px 100px;
+
+}
+
+.card{
+  width: 440px;
+  margin-top: 10px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card-text{
+  background-color: white;
+  text-align: center;
+  font-family: 'Lora', serif;
+  box-shadow: 2px 2px rgba(255, 255, 255, 0.2);
+}
+
+.image-home{
+  width: 400px;
+  border: 1px solid #000000;
+  box-shadow: 2px 2px rgba(255, 255, 255, 0.2);
+}
+
 
